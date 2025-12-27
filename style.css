@@ -1,0 +1,77 @@
+#background-video {
+   width: 100vw;
+   height: 100vh;
+   object-fit: cover;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   z-index: -1;
+}
+
+h1, h2 {
+   color: white;
+   font-family: Trebuchet MS;
+   font-weight: bold; text-align: center;
+}
+
+h1 {
+   font-size: 3rem;
+   margin-top: 90px;
+}
+
+h2 {
+   font-size: 2rem;
+}
+
+@media (max-width: 750px) {
+   #background-video {
+      display: none;
+   } 
+   body {
+      background-color: black;
+      background-size: cover;
+      opacity: 30%;
+   }
+}
+
+#clicar {
+    color: blue;
+}
+
+.cabelos {
+    justify-content: center;
+    display: flex;
+}
+
+#zoado {
+    height: 300px;
+    width: 500px;
+    padding: 70px;
+    padding-top: 190px;
+}
+
+.cabelos img {
+    height: 650px;
+    width: 380px;
+    padding: 70px;
+}
+
+.video {
+    justify-content: center;
+    display: flex;
+}
+
+#quadrado {
+    height: 400px;
+    height: 400px;
+    padding: 70px;
+    padding-top: 190px;
+}
+
+#danca {
+    height: 650px;
+    width: 380px;
+    padding: 70px;
+}
